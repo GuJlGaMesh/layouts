@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    flex: 1 1 auto;
+}
+.panel__below{
+    
+    height: 64px;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #445162;
+}
+.text-title{
+    font-size: 60px;
+line-height: 1.2;
+font-weight: 400;
+color: #ffffff;
+}
+.text-list{
+    list-style-image: url(/images/icon1.png);
+    font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+color: #ffffff;
+}
+.hi {
+    height: 323px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #445162;
+}
+
+
