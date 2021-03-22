@@ -3,20 +3,23 @@ body {
 
 }
 .wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 100%;
+    width: 100%;
     overflow: hidden;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 .content {
     display: flex;
+    margin: 0 auto;
     flex: 1 1 auto;
 }
-.panel__below{
-    
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
     height: 64px;
     font-size: 12px;
     line-height: 24px;
@@ -26,16 +29,16 @@ body {
 }
 .text-title{
     font-size: 60px;
-line-height: 1.2;
-font-weight: 400;
-color: #ffffff;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
 }
 .text-list{
     list-style-image: url(/images/icon1.png);
     font-size: 20px;
-line-height: 36px;
-font-weight: 400;
-color: #ffffff;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
 }
 .hi {
     height: 323px;
